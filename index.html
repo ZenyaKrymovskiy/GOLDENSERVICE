@@ -3,71 +3,75 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bilbo+Swash+Caps&family=Montserrat:wght@400;700&family=Roboto+Slab&display=swap" rel="stylesheet">
     <title>Document</title>
   </head>
   <body>
-    <header>
-      <a href="./index.html">Golden</a>
-      <nav>
-        <ul>
+    <header class="header">
+      <a href="./index.html" class="logo">Golden</a>
+      <nav class="navigation">
+        <ul class="nav">
           <li>
-            <a href="#">Home</a>
+            <a href="#" class="nav-list-link">Home</a>
           </li>
           <li>
-            <a href="#">Services</a>
+            <a href="#" class="nav-list-link">Services</a>
           </li>
           <li>
-            <a href="#">Portfolio</a>
+            <a href="#" class="nav-list-link">Portfolio</a>
           </li>
           <li>
-            <a href="#">About</a>
+            <a href="#" class="nav-list-link">About</a>
           </li>
           <li>
-            <a href="#">Contact</a>
+            <a href="#" class="nav-list-link">Contact</a>
           </li>
         </ul>
       </nav>
     </header>
-    <main>
-      <h2>Services</h2>
-      <ul>
-        <li>
-          <h3>E-Commerce</h3>
-          <p>
+    <main class="main">
+      <h2 class="main-title">Services</h2>
+      <ul class="main-list">
+        <li class="main-list-item">
+          <h3 class="main-list-title">E-Commerce</h3>
+          <p class="main-list-text">
             Proin iaculis purus consequat sem cure digni ssim. Donec porttitora
             entum suscipit aenean rhoncus posuere odio in tincidunt.
           </p>
         </li>
-        <li>
-          <h3>Responsive Web</h3>
-          <p>
+        <li class="main-list-item">
+          <h3 class="main-list-title">Responsive Web</h3>
+          <p class="main-list-text">
             Proin iaculis purus consequat sem cure digni ssim. Donec porttitora
             entum suscipit aenean rhoncus posuere odio in tincidunt.
           </p>
         </li>
-        <li>
-          <h3>Web Security</h3>
-          <p>
+        <li class="main-list-item">
+          <h3 class="main-list-title">Security</h3>
+          <p class="main-list-text">
             Proin iaculis purus consequat sem cure digni ssim. Donec porttitora
             entum suscipit aenean rhoncus posuere odio in tincidunt.
           </p>
         </li>
       </ul>
     </main>
-    <footer>
-      <h2>Contact us</h2>
-      <form>
+    <footer class="footer">
+      <h2 class="footer-title">Contact us</h2>
+      <form class="footer-form">
         <label>
-          <input type="text" placeholder="your Name *" />
+          <input type="text" placeholder="your Name *" class="form-input">
         </label>
         <label>
-          <input type="email" placeholder="your e-mail *" />
+          <input type="email" placeholder="your e-mail *" class="form-input">
         </label>
         <label>
-          <input type="text" placeholder="subject" />
+          <input type="text" placeholder="subject" class="form-input" >
         </label>
         <label>
-          <textarea
+          <textarea class="form-comment"
             name="comment"
             id="comment"
             cols="30"
@@ -75,7 +79,7 @@
             placeholder="Your message *"></textarea  >
         </label>
 
-        <button type="submit">Send Message</button>
+        <button type="submit" class="form-btn-submit">Send Message</button>
       </form>
       
      
